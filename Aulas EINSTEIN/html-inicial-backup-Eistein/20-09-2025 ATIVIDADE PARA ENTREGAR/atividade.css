@@ -1,0 +1,88 @@
+header{
+    background-color: rgb(231, 189, 133);
+    border-radius: 10px;
+}
+
+.titulo{
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    gap: 20px;
+    color: black;   
+
+    
+}
+.menu-cor{
+    list-style:none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;   
+    font-size: x-large;
+}
+.menu-cor:hover{
+    color: rgb(15, 15, 34);
+
+}
+:any-link{
+    color: rgb(59, 22, 22);
+}
+:any-link :hover{
+    color: rgba(238, 15, 15, 0.164);
+}
+a{
+    text-decoration: none;
+}
+.postagem{
+    align-content: center;
+   
+}
+.nome{
+    font-weight: 100px;
+    font-size:larger;
+}
+#primeiro-titulo{
+    text-align: center;
+}
+.postagem{
+    font-style: italic;
+    background-color:rgb(231, 189, 133);
+    padding: 1%;
+    border-radius: 10px;
+    align-content: center;
+
+}
+.informacoes{
+    text-align: center;
+
+}
+h2{
+    margin: 10px;
+}
+.imagem1{
+    border-radius: px;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 15px;
+    margin: 5px;       
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(158, 158, 158);
+}
+.rodape{
+    display: flex;
+    align-content: flex-end;
+}
+footer{
+    background-color: rgb(231, 189, 133);
+    padding: 1%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,32 @@
+1- QUAIS OS 3 TIPOS DE VARIÁVEIS?
+
+*Texto
+*Número
+*Lógica
+
+2- Variável é tudo que a espaço ou amarzenamento.
+
+3- Sempre que tiver aspas considera-se um texto.
+
+4- Quando a soma "+" juntamente com texto, é uma concatenação.
+
+5-Nome de Variável
+ 
+* Não utilizar cacteres especial
+* Não ter espaço
+* Não ter acento
+* Não começar com números.
+
+6- Operadores
+
+* Multiplicação
+/ Divisão
++ Adição
+- Subtração
+
+7- O QUE É REFATORAR?
+
+*APERFEIÇOAR UM PROJETO DESORGANIZADO OU SEJA, MELHORAR E ORGANIZAR.
+(ENTENDER E TER CLAREZA)
+
+8- Realizamos 6 exercicíos em sala de aula no programa Figma, relacionado ao fluxograma e suas variaveis de acordo com suas figuras.

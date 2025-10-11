@@ -1,0 +1,21 @@
+1- quais os três tipos de dados?
+
+
+
+          Dados -> Informações
+
+
+
+* Texto * => (STRING) "Guto" ou  "10"
+
+
+* Numérico * => Real (FLOAT) 10 ou Inteiro (INT) 10.5
+
+
+* Boleano/Boolean (LÓGICO) * => Verdadeiro (TRUE) ou Falso (FALSE)
+ 
+ 
+
+
+
+

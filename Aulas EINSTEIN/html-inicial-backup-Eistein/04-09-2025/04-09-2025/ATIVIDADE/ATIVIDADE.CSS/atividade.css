@@ -1,0 +1,21 @@
+    .aviso{
+        color: blue;
+        background-color: rgb(197, 189, 189);
+        font-style: italic;
+    }
+    .caixa-destaque{
+        border: 1px solid red;
+        font-size: 20px;
+        text-align: center;
+
+
+    }
+    .botao-interativo{
+        background-color: green;
+        color: aliceblue;
+
+    }
+    .botao-interativo:hover{
+        background-color: orange;
+        font-style: italic;
+    }

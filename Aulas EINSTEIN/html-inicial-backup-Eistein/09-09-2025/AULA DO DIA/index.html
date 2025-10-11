@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIOS CSS</title>
+    <style>
+        .texto-negrito{
+            font-weight: 900;
+        }
+        .texto-itálico{
+            font-style: italic; 
+        }
+        .texto-sublinhado{
+            text-decoration: underline;
+        }
+        #fundo{
+            background-color: rgb(8, 8, 7);
+            width: 500px;
+            height: 100px;
+            text-align: center;
+            color: rgb(9, 241, 28);
+            align-content: center;
+            border-radius: 10px;
+            padding: 1%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #imagem1{
+            background-image: url(good.jpg);
+            height: 200px;
+            width: 200px;
+            background-repeat: no-repeat;
+        }
+        body{
+            background-image: url(GOW.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 90%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Estilo para texto -->
+    <h1 class="texto-negrito">Texto em Negrito</h1>
+    <h1 class="texto-itálico">Texto em Itálico</h1>
+    <h1 class="texto-negrito texto-itálico texto-sublinhado">Texto em Negrito/Itálico/Sublinhado</h1>
+    <!-- Estilo para fundo - background-->
+    <section id="fundo">  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellendus alias et tempora incidunt placeat reiciendis, eaque unde, praesentium cumque excepturi. Dicta optio deleniti suscipit possimus aut quo eos debitis...CARREGANDO...</p>
+    </section>
+
+    <section>
+        <img id="imagem1" src="" alt="">
+    </section>
+
+    
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <br>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome" name="sobrenome">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <br>        
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade" min="0" minlength="1" maxlength="3">
+        <br>
+        <br>
+        <label for="newsletter"><input type="checkbox" name="newsletter" id="newsletter">Receber novidades</label>
+        <br><br>
+        <hr>
+        <label>Gênero:</label>
+        <input type="radio" id="masc" name="genero" value="masculino">
+        <label for="masc">Masculino</label>
+
+        <input type="radio" id="fem" name="genero" value="feminino">
+        <label for="fem">Feminino</label>
+
+        <input type="radio" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label>
+    <hr>
+
+        <label for="estado">Estado</label>
+        <select id="estado" name="estado">
+            <option value="1">SP</option>
+            <option value="2">RJ</option>
+            <option value="3">MG</option>
+            <option value="4">PR</option>
+            <option value="5">ES</option>
+            <option value="6">RO</option>
+            <option value="7">SC</option>
+            <option value="8">RS</option>
+            <option value="9">MT</option>
+            <option value="10">MS</option>
+            <option value="11">GO</option>
+            <option value="12">CE</option>
+            <option value="13">AM</option>
+            <option value="14">BA</option>
+            <option value="15">RR</option>
+            <option value="16">PI</option>
+            
+        </select>
+    <hr>
+        <label for="cidade">Cidade</label>
+        <select id="cidade" name="cidade">
+            <option value="1">Americana</option>
+            <option value="2">Santa Barbara D' Oeste</option>
+            <option value="3">Piracicaba</option>
+            <option value="4">Limeira</option>
+            <option value="5">Paulinia</option>
+            <option value="6">Sumaré</option>
+            <option value="7">Hortolandia</option>
+            <option value="8">Rio Claro</option>
+            <option value="9">Capivari</option>
+            <option value="10">Laranjal Paulista</option>
+            <option value="11">Itupeva</option>
+            <option value="11">Idaiatuba</option>
+            </select>
+
+            <hr>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="5"></textarea>
+
+        <br>
+        <br>
+        <button>Enviar</button>
+        
+        
+    </form>
+</body>
+</html>

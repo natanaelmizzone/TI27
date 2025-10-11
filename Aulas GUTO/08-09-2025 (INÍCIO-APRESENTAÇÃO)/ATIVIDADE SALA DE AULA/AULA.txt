@@ -1,0 +1,11 @@
+1- Boleanos (TRUE OU FALSE)
+
+== é igual
+!= é diferente
+>  maior
+>= maior ou igual
+< menor
+<= menor ou igual
+() Caracteres
+{} Cochetes
+se (TRUE) e senao (FALSE)

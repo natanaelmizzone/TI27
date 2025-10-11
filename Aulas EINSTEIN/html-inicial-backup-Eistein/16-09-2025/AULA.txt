@@ -1,0 +1,7 @@
+1 - Revisão da aula anterior:
+
+*Display-Flex
+*RGB e RGBA
+*HSL e HSLA
+*cores em Hectadecimal EX: "#00ff66 se tiver mais dois numeros, insere a opacidade"
+*Coluna principal ou cruzada

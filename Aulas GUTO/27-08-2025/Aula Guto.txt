@@ -1,0 +1,37 @@
+1- Fizemos o uso do Kahoot
+Versão Fácil
+
+= É UMA ATRIBUIÇÃO
+
+2- Foi realizado uma dinâmica em uma roleta giratoria via web, e o nome selecionado responderia as perguntas feitas pelo professor.
+
+3- Entramos no Figma e realizamos desenhos aleátorios, afim de aprender a fazer um fluxograma.
+
+Apoós realizado a dinâmica, fizemos os simbolos relacionado ao fluxograma;
+
+Diante dos simbolos, realizamos o fluxograma de acordo com os passos a passos, exemplo:
+
+- Como Somar em uma calculadora
+
+*Entrada
+*Comando
+*Sáida
+
+EXEMPLIFICAÇÃO
+
+* 3 (N1)
+* 6 (N2)
+Total=N1+N2
+
+
+4- Quais são os tipos de memórias?
+
+MEMORIA RAM (MEMORIA VOLÁTIL)
+ARMAZENAMENTO (HD, SSD, E M2)
+ROM (UTILIZADO PARA INICIALIZAÇÃO DO COMPUTADOR) OBS: SEMPRE QUE TIVER SOLICITANDO O F1 PARA INICIALIZAR, É A BATERIA DA PLACA MÃE.
+
+5-  CONCATENAÇÃO
+
+6- Aprender formas de fluxograma e diversos
+
+SITE = https://www.cursoemvideo.com/

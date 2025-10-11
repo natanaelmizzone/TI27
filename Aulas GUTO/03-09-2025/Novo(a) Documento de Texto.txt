@@ -1,0 +1,13 @@
+1 - Operador de Atribuição (Somente um =).
+
+* Atribui ao que está do lado direito do operador, e será atribuido ao lado esquerdo
+     
+   Operador de Contribuição (Te dois =)
+*
+
+   Operador CONCATENAÇÃO/SOMA sempre tem o +.
+
+2 - Identado ou Endentado
+
+Identação ou endentação - Como Escrever
+Tem dúvidas para conseguir utilizar de forma correta as palavras identação ou endentação em suas produções

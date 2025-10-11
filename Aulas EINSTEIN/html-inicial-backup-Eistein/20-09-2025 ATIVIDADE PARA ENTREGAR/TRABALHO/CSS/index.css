@@ -1,0 +1,119 @@
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*------------------------------------------------------------ Cabeçalho----------------------------------------------- */
+  header {
+    background-color: rgb(240, 215, 169);
+    color: #331f02;
+    padding: 20px;
+    text-align: center;
+  }
+    /* -------------------------------------------------------------Título 1 ---------------------------------------------- */
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+  }
+    /* -----------------------------------------------------Estrutura do site-------------------------------------- */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #020405;
+    line-height: 1.6;
+  }
+  /* ---------------------------------------------------------Menu NAV--------------------------------------------------- */
+  nav {
+    background-color: #a58252;
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* ---------------------------------------------Menu NAV-PUXANDO O LINK "A-cor da fonte-margem----------------------------- */
+  nav a {
+    color: #331f02;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color:rgb(240, 215, 169);
+  }
+  /* -----------------------------------------------CONTEÚDO DA PAGINA--------------------------------------------------- */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #f5faff;
+  }
+  /* -----------------------------------------------Informações inserida no CONTEÚDO--------------------------------------- */
+  .titulo1{
+    text-align: center;
+  }
+  .imagem{
+    text-align: center;
+  }
+  /* ---------------------------------------------------REFERENTE AO VIDEO DO YOUTUBE----------------------------------- */
+  .video1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+
+  }
+/* -------------------------------------------------SECTION COM TAMANHO DUAS VEZES MAIOR"----------------------------------------- */
+  .conteiner {
+    flex: 2;
+
+  }
+/* ------------------------------------------------ARTICLE utilizado conforme o exercício-----------------------------------*/
+  article {
+    background-color: rgb(240, 215, 169);
+    padding: 20px;
+    border-left: 5px solid #9c6b32;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: auto;
+    max-height: auto;
+  }
+  article h2 {
+    color: #331f02;
+  }
+/* ------------------------------------------------ASIDE utilizado conforme o exercício-----------------------------------*/
+  aside {
+    flex: 1;
+    background-color: rgb(240, 215, 169);
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: auto;
+    height: 200px;
+  }
+  aside h3 {
+    color: #331f02;
+    margin-bottom: 10px;
+  }
+
+  /* Estilo para telas com até 768px de largura (tablets e celulares) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    background-color: lightgray;
+  }
+}
+
+/* Estilo para celulares menores (até 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+/* ------------------------------------------------FOOTER-RODAPÉ utilizado conforme o exercício-----------------------------------*/
+  footer {
+    background-color: #a58252;
+    color: #331f02;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+      
+  }

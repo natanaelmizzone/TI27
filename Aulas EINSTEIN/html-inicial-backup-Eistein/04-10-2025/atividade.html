@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(57, 79, 83);
+            font-size: 20px;
+        }
+        #div-imagem{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            background-color: rgb(255, 249, 249);
+            border-radius: 10px;
+            padding: 1%;
+            margin: 10px;
+            
+        }
+        h1{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 1%;
+            margin: 10px;
+            text-align: center;
+        }
+        img{
+            border-radius: 10px;
+            max-width: 600px;
+            max-height: 450px;
+        }
+        #video{
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+
+        }
+        @media (max-width: 600px){
+            body {
+            background-color: rgb(221, 129, 93);
+            font-size: 16px;
+            line-height: 1.6;
+            }
+            
+            #div-imagem img{
+            max-width: 450px;
+            max-height: 350px;
+            border-radius: 10px;
+            }
+            }
+
+        
+    </style>
+</head>
+<body>
+        <h1>Exemplo de Media Query</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nam maiores sapiente eligendi dolores? Numquam minima quaerat expedita dolorem, adipisci illo voluptates officia sint doloribus hic laudantium saepe a et!</p>
+    <div id="div-imagem">
+        <img src="/OIP.webp" alt="seu madruga" >
+    </div>
+
+    </div id="video">
+
+        <video controls>
+        <source width="560" height="315" src="video-fundo.mp4" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=MUaTIRDokmU" type="video/ogg">
+         </video>
+
+        <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your Broswer
+         </audio>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MUaTIRDokmU?si=MxeH6ReXdUPPFf1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>

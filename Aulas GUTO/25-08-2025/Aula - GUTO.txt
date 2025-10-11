@@ -1,0 +1,20 @@
+1 - Utilizamos de um jogo para avaliar a lógica de programação.
+
+Site: https://kahoot.it/
+
+2 - Definição desse jogo, é o que é algoritmo e como é ele na lógica:
+
+Definindo em:
+
+* Início/Lógico (Identificar) Diagnostico
+* Meio/Finito (Ser finito) Formativo
+* Fim/Definido (Resolver/Objetivo) Somatorio
+
+3 - Realizamos uma programção para ter noções de como começar a programar, atraves ddo site:
+ 
+Site: https://scratch.mit.edu/
+
+4 - LIGUAGEM DE ALGORITMO
+
+*PSEUDOCÓDIGO
+*FLUXOGRAMA

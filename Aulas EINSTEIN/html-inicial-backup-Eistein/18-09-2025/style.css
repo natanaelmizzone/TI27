@@ -1,0 +1,25 @@
+
+.logotipo{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+.titulo-site{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+}
+.menu-navegacao{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(121, 120, 112);
+}
+.menu-categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body{
+    background-color: rgb(94, 105, 116);
+}

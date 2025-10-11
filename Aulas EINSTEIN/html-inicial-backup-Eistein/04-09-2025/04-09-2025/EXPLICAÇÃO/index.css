@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond;
+    background-image: url(https://preview.redd.it/christmas-gift-4k-wallpaper-v0-t5rtg2ucut7c1.jpeg?width=1080&crop=smart&auto=webp&s=6311405cfedc3e0275f19358c786b913afbd3719) ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed
+
+
+}
+
+#texto-1{
+    background-color: rgb(146, 142, 142);
+    font-size: 20px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-direction: alternate-reverse; 
+}
+
+ #texto-2{
+    background-color: rgb(21, 141, 91);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-play-state: running;
+}
+ #texto-3{
+    background-color: rgb(250, 248, 107);
+    font-size: 40px;
+    scrollbar-arrow-color: rgb(58, 43, 63)   ;
+}
+#caixa{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
