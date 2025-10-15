@@ -1,0 +1,14 @@
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.formulario{
+    border-style: solid;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: -7px 8px 11px 0px rgb(99, 133, 139);
+}
