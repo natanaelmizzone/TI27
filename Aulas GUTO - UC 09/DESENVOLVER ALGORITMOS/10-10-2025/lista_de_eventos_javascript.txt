@@ -1,0 +1,27 @@
+A lista de eventos JavaScript inclui eventos de mouse (como click, mouseover, mouseout), teclado (keydown, keyup), formulário (submit, change, focus, blur) e eventos da janela ou documento (load, scroll, resize). Esses eventos são acionados por interações do usuário e permitem que você execute código JavaScript em resposta a essas ações. 
+Eventos de mouse
+click Disparado quando um botão é clicado.
+dblclick Disparado quando um botão é clicado duas vezes.
+mousedown Disparado quando um botão do mouse é pressionado.
+mouseup Disparado quando um botão do mouse é liberado.
+mouseover Disparado quando o mouse se move sobre um elemento.
+mouseout Disparado quando o mouse se move para fora de um elemento.
+mousemove Disparado quando o mouse é movido sobre um elemento.
+contextmenu Disparado quando o menu de contexto é aberto (por exemplo, com um clique do botão direito do mouse). 
+Eventos de teclado
+keydown Disparado quando uma tecla é pressionada.
+keyup Disparado quando uma tecla é liberada.
+keypress Disparado quando uma tecla que produz um caractere é pressionada (obsoleto para alguns casos, keydown é geralmente preferível). 
+Eventos de formulário
+submit Disparado quando um formulário é enviado.
+change Disparado quando o valor de um campo de entrada é alterado.
+focus Disparado quando um elemento recebe foco (por exemplo, ao clicar nele ou selecioná-lo com Tab).
+blur Disparado quando um elemento perde o foco. 
+Eventos de janela e documento
+load Disparado quando a página (DOM e recursos externos como imagens) é totalmente carregada.
+scroll Disparado quando a página é rolada.
+resize Disparado quando a janela do navegador é redimensionada. 
+Outros tipos de eventos
+touchstart, touchmove, touchend Eventos relacionados à interatividade de telas sensíveis ao toque.
+selectionchange Disparado quando a seleção de texto é alterada em um elemento.
+Eventos da API WebXR, WebRTC e outros Eventos específicos de APIs que tratam de realidade estendida, comunicação entre navegadores e outras funcionalidades mais avançadas. 

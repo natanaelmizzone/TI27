@@ -1,0 +1,105 @@
+***Comandos XAMPP***
+
+# mysql -h(host) localhost(endereço = maquina) -u(usuario) root(adm) -p(senha)
+
+
+
+
+
+***Utiliza-se assim:***
+
+# mysql -h localhost -u root -p
+
+
+
+
+
+***Para mostra bancos de dados existentes***
+
+SHOW DATABASES;
+
+
+
+
+
+
+***Criar um banco de dados***
+
+CREATE(criar) DATABASE db_escola(nome);
+
+
+***Utiliza-se assim:***
+
+
+CREATE DATABASE db_escola;
+
+
+
+
+
+
+
+***Selecionar o database***
+
+USE db_escola(nome do db);
+
+***Utiliza-se assim:***
+
+USE db_escola;
+
+
+
+***Para criar tabela***
+
+CREATE TABLE td_pessoas(NOME DA TABELA) 
+
+Após inserir CREATE acima, clicar enter e inserir as informação da tabela, exemplo abaixo:
+
+(nome VARCHAR(50), idade INT(3));
+
+
+
+
+
+***Descrever a tabela****
+
+Aplique o DESC
+
+DESC td_pessoas;
+
+
+
+
+
+
+
+***Inserir informações***
+
+INSERT INTO td_pessoas (nome, idade)
+
+Após inserir as informações acima, de enter e insira as informações abaixo:
+
+VALUE ("Natanael Mizzone", 29);
+
+Após inserir, de o enter.
+
+
+
+
+
+
+
+Selecionar todas as colunas da tabela:
+
+SELECT * FROM td_pessoas;
+
+Assim facilita visualizar toda a tabela.
+
+SELECT nome (para visualizar somente o nome) FROM td_pessoas;
+ 
+
+
+
+
+
+
