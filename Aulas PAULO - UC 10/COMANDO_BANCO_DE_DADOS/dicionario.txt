@@ -89,6 +89,7 @@ Após inserir, de o enter.
 
 
 
+
 Selecionar todas as colunas da tabela:
 
 SELECT * FROM td_pessoas;
@@ -96,7 +97,59 @@ SELECT * FROM td_pessoas;
 Assim facilita visualizar toda a tabela.
 
 SELECT nome (para visualizar somente o nome) FROM td_pessoas;
+
+
+
+
+
+
+
+Para filtrar maior que 30 em quantidade
+
+SELECT * FROM estoque WHERE estoque > 30
+
+
+Para atualizar os dados utilizar os comandos abaixo:
+
+UPDATE (nome da tabela aqui, e de enter) 
+SET nascimento (local da planilha a ser alterado)  = “2006-03-01” (dados a ser alterado)
+WHERE nome(local direcionado para quem trocar) = “Nan Santos” (aqui o nome de quem, produto ou o que);
+
  
+
+
+
+Para apagar uma linha:
+
+DELETE FROM estoque WHERE nome = "detergente";
+
+
+
+
+
+Comando que apaga toda a tabela:
+
+DROPE  TABLE estoque(aqui inseri a tabela a ser apagada);
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+CREATE TABLE estoque (
+->id_estoque INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+->nome VARCHAR(100),
+->categoria VARCHAR(100),
+->preco DECIMAL,
+->fornecedor VARCHAR(100),
+->qtd_disponivel INT
+);
+
 
 
 
