@@ -151,8 +151,29 @@ CREATE TABLE estoque (
 );
 
 
+---------------------------------------------------------------------------------------------------------------------
+                                                     AULA 25/11/2025
+
+CREATE TABLE tb_jogadores (
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nome_jogador VARCHAR(50),
+    nascimento DATE,
+    time VARCHAR(100),
+    salario DECIMAL(10,2)
+)
+
+SELECT * FROM tb_jogadores  
+
+ALTER TABLE tb_jogadores DROP COLUMN nascimento; 
+
+////comando ALTER TABLE nome_tabela DROP COLUMN nome_coluna apaga uma coluna já cadastrada!////
+
+ALTER TABLE tb_jogadores ADD idade INT;
+
+////comando ALTER TABLE nome_tabela ADD nome_coluna tipo inseri uma nova coluna na tabela////
 
 
-
+INSERT INTO tb_jogadores (nome_jogador, nascimento, time, salario )
+VALUE ()
 
 
