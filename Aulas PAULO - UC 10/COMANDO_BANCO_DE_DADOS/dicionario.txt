@@ -177,3 +177,47 @@ INSERT INTO tb_jogadores (nome_jogador, nascimento, time, salario )
 VALUE ()
 
 
+
+--------------------------------------------------------------------
+
+
+
+
+SELECT * FROM tb_pessoas;           
+
+SELECT * FROM tb_alunos;
+
+ALTER TABLE tb_alunos ADD COLUMN id INT PRIMARY KEY AUTO_INCREMENT NOT NULL;
+
+-- adicionar  a escolariedade de cada aluno (vai ser preenchido com o nivel da escola dele, médio, técnico e superior)
+
+ALTER TABLE tb_alunos ADD COLUMN escolariedade VARCHAR(10)
+
+UPDATE tb_alunos SET escolariedade = "médio";
+
+UPDATE tb_alunos SET escolariedade = "";
+UPDATE tb_alunos SET escolariedade = NULL;
+
+UPDATE tb_alunos SET estado = 'SP';
+
+UPDATE tb_alunos SET estado = 'MA' WHERE id = 4;
+
+UPDATE tb_alunos 
+SET estado = 'BA', idade = 18, email = 'davi.santos@gmail.com', escolaridade = 'médio'
+WHERE id = 6;
+
+SELECT * FROM tb_alunos WHERE genero = "M" AND nome LIKE "%gabriel%"
+
+SELECT * FROM tb_alunos
+
+
+
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+
