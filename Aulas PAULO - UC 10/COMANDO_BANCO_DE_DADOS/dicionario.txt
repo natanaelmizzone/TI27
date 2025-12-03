@@ -216,8 +216,60 @@ SELECT * FROM tb_alunos
 ---------------------------------------------------------------------
 
 
+CREATE TABLE tb_salas (
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
+    numero_salas INT(2), nome_salas VARCHAR(30)
+);
+
+INSERT INTO tb_salas (numero_salas)
+VALUE (4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19);
+
+ALTER TABLE tb_salas ADD nomes_salas VARCHAR(30);
+
+INSERT INTO tb_salas (nome_salas)
+VALUE ('Laboratório de Informática');
+
+SELECT * FROM  tb_salas
+
+ALTER TABLE tb_salas ADD lugares_sala INT(3) 
+
+UPDATE tb_salas SET lugares_sala = 27 WHERE id = 16
+
+SELECT * FROM tb_salas
 
 
 
 
+
+--------------------------------------------------------------------
+28/11/2025
+
+ALTER TABLE tb_sala CHANGE tipo_sala tipos_sala VARCHAR(20)
+
+o item CHANGE é quando eu quero mudar a estrutura.
+Assim você altera o titulo da tabela, sem mudar a coluna, também pode ser alterado o varchar sem mudar a coluna.
+
+-------------------------------------------------------------------
+
+
+CREATE TABLE tb_professor (
+    id INT PRIMARY key AUTO_INCREMENT NOT NULL,
+    nome_prof VARCHAR(50),
+    area VARCHAR(20)
+)
+
+INSERT INTO
+    tb_professor(nome_prof, area)
+VALUES
+('Paulo Santos', 'Programação'),
+('Lucas', 'Hardware'),
+('Felipe', 'Redes')
+
+SELECT * FROM tb_professor;
+
+ALTER TABLE tb_professor ADD tipo_sala VARCHAR(50);
+
+SELECT * FROM tb_salas WHERE nome_sala LIKE '%Hardware%'
+
+SELECT * FROM tb_salas WHERE id = 2
 
