@@ -135,7 +135,7 @@ DROPE  TABLE estoque(aqui inseri a tabela a ser apagada);
 
 
 
----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------
 
 
 
@@ -151,8 +151,9 @@ CREATE TABLE estoque (
 );
 
 
----------------------------------------------------------------------------------------------------------------------
-                                                     AULA 25/11/2025
+--------------------------------------------------------------------
+25/11/2025
+--------------------------------------------------------------------
 
 CREATE TABLE tb_jogadores (
     id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
@@ -243,6 +244,7 @@ SELECT * FROM tb_salas
 
 --------------------------------------------------------------------
 28/11/2025
+--------------------------------------------------------------------
 
 ALTER TABLE tb_sala CHANGE tipo_sala tipos_sala VARCHAR(20)
 
@@ -312,6 +314,9 @@ RIGHT JOIN inclui todas as linhas da tabela da direita, independentemente de hav
 
 * FULL JOIN
 É um tipo de operação SQL JOIN que recupera todos os registros de ambas as tabelas, incluindo registros correspondentes e não correspondentes.
+
+
+5° CRIAR UMA TABELA DE SALAS, ALUNOS, DOCENTES E TURMAS.
 
 
 
