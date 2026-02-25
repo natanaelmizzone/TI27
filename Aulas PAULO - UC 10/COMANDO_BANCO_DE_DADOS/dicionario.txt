@@ -291,7 +291,7 @@ Após clique mouse direito no banco de dados e crie um novo BANCO
 Nesse banco criado, novamente mouse direito clique em criar uma nova tabela.
 
 
-4° Comandos utilizados no DEBAVER
+4° Comandos utilizados no DEBAVER para consultar informações em mais de uma tabela.
 
 select tv.id_vendedor, tv.nome_vendedor, tven.id_venda , 
 tven.quantidade, tven.valor_total,
@@ -302,9 +302,16 @@ inner join tb_produtos tp  on tp.id_produto = tven.id_produto_fk
 where nome_vendedor = "bruce banner
 
 * INNER JOIN
+O Inner Join é o método de junção mais conhecido e, como ilustra a Figura 2, retorna os registros que são comuns às duas tabelas.
+
 * LEFT JOIN 
+O comando LEFT JOIN retorna todas as linhas da tabela esquerda e as linhas correspondentes da tabela direita.
+
 * RIGHT JOIN
+RIGHT JOIN inclui todas as linhas da tabela da direita, independentemente de haver uma correspondência na tabela da esquerda. 
+
 * FULL JOIN
+É um tipo de operação SQL JOIN que recupera todos os registros de ambas as tabelas, incluindo registros correspondentes e não correspondentes.
 
 
 
