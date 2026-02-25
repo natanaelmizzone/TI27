@@ -301,6 +301,10 @@ inner join tb_vendas tven  on tv.id_vendedor = tven.id_vendedor_fk
 inner join tb_produtos tp  on tp.id_produto = tven.id_produto_fk 
 where nome_vendedor = "bruce banner
 
+* INNER JOIN
+* LEFT JOIN 
+* RIGHT JOIN
+* FULL JOIN
 
 
 
