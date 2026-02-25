@@ -273,3 +273,38 @@ SELECT * FROM tb_salas WHERE nome_sala LIKE '%Hardware%'
 
 SELECT * FROM tb_salas WHERE id = 2
 
+
+-------------------------------------------------------------------
+                          25/02/2026
+-------------------------------------------------------------------
+
+1° XAMPP - MYSQL
+
+APERTE "START"
+
+2° BAIXE O PRAGRAMA DBEAVER E INSTALE CONFORME OS PASSOS SEM MUDAR AS CONFIGURAÇÕES.
+
+3° ABRA DBEAVER E CONECTE (SIMBOLO DE TOMADA)
+
+Após clique mouse direito no banco de dados e crie um novo BANCO
+
+Nesse banco criado, novamente mouse direito clique em criar uma nova tabela.
+
+
+4° Comandos utilizados no DEBAVER
+
+select tv.id_vendedor, tv.nome_vendedor, tven.id_venda , 
+tven.quantidade, tven.valor_total,
+tp.nome 'nome_produto', tp.preco_unitario 
+from tb_vendedores tv  
+inner join tb_vendas tven  on tv.id_vendedor = tven.id_vendedor_fk 
+inner join tb_produtos tp  on tp.id_produto = tven.id_produto_fk 
+where nome_vendedor = "bruce banner
+
+
+
+
+
+
+
+
