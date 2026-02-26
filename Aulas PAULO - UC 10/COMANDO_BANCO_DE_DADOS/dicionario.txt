@@ -318,6 +318,16 @@ RIGHT JOIN inclui todas as linhas da tabela da direita, independentemente de hav
 
 5° CRIAR UMA TABELA DE SALAS, ALUNOS, DOCENTES E TURMAS.
 
+tb_salas = id_salas
+tb_alunos = id_alunos
+tb_salas = id_salas
+tb_salas = id_salas
+
+6° Utilizamos o DBDesigner para criar a base do banco de dados.
+
+https://erd.dbdesigner.net/
+
+
 
 
 
