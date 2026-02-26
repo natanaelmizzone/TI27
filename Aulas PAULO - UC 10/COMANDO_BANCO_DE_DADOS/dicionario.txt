@@ -328,7 +328,8 @@ tb_salas = id_salas
 https://erd.dbdesigner.net/
 
 
-
+7° quando se puxar uma tabela tem a nomeclatura para puxar as colunas, exemplo:
+Chave Estrangeira (Foreign Key)
 
 
 
